@@ -573,7 +573,7 @@
             Notify<br></br><see cref="F:com.Neogoma.HoboDream.InteractiveEventAction.FOCUS"/><br></br><see cref="F:com.Neogoma.HoboDream.InteractiveEventAction.UNFOCUS"/>
             </summary>
             <seealso cref="T:com.Neogoma.HoboDream.Impl.AbstractInteractive"/>
-            <seealso cref="T:com.Neogoma.Hobodream.Framework.IRaycasterObject"/>
+            <seealso cref="T:com.Neogoma.HoboDream.Framework.IRaycasterObject"/>
         </member>
         <member name="F:com.Neogoma.Hobodream.ARFramework.Utils.Common.Impl.AR.ObjectFocusable.standardColor">
             <summary>
@@ -954,12 +954,6 @@
         <member name="F:com.Neogoma.Hobodream.ARFramework.Utils.Common.Impl.AR.TouchDragObject.baseSpeed">
             <summary>
             Movement speed
-            </summary>
-        </member>
-        <member name="T:com.Neogoma.Hobodream.ARFramework.Utils.Common.Impl.ScreenGesture.ScreenGestureController">
-            <summary>
-            Intepretes the gestures on the screen    
-            Listeners:MoveController
             </summary>
         </member>
         <member name="T:com.Neogoma.Hobodream.ARFramework.Utils.Common.Impl.Brush.ColorPick">
