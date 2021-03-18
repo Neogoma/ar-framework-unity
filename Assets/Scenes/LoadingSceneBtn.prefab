@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -90,8 +91,7 @@ GameObject:
   - component: {fileID: 3400795895405222553}
   - component: {fileID: 3227268618953926130}
   - component: {fileID: 8385743870308847961}
-  - component: {fileID: 3999082321239410438}
-  - component: {fileID: 1458183784478468202}
+  - component: {fileID: 7181415769162339105}
   m_Layer: 5
   m_Name: LoadingSceneBtn
   m_TagString: Untagged
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -170,6 +171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -199,7 +201,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3999082321239410438
+--- !u!114 &7181415769162339105
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,7 +210,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8975096746273456342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1208744880, guid: 2bd259310f3b97f46854bee58176a981, type: 3}
+  m_Script: {fileID: 1208744880, guid: 2999f4906079f8b4780052013c1981db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   allListenersToAdd: []
@@ -220,17 +222,3 @@ MonoBehaviour:
   objsToBeToggled: []
   imageAfterClick: {fileID: 0}
   sceneIndexToLoad: 0
---- !u!114 &1458183784478468202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8975096746273456342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 560757749, guid: 2bd259310f3b97f46854bee58176a981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allListenersToAdd: []
-  loadingObject: {fileID: 5793808138525453811}

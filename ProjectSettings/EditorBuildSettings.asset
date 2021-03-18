@@ -15,22 +15,19 @@ EditorBuildSettings:
     path: Assets/Scenes/2-Drag.unity
     guid: 70df482596dd6024f8c702c9def545fb
   - enabled: 1
-    path: Assets/Scenes/3-TouchToRotate.unity
-    guid: cd1574a7062ff0f458f9920d8464cebd
-  - enabled: 1
-    path: Assets/Scenes/4-TouchPaintSurface.unity
+    path: Assets/Scenes/3-TouchPaintSurface.unity
     guid: 4209547357c4c9d4bb0e70806edfe238
   - enabled: 1
-    path: Assets/Scenes/5-shoot.unity
+    path: Assets/Scenes/4-shoot.unity
     guid: dc58b366025329f43838cd02ce28fdec
   - enabled: 1
-    path: Assets/Scenes/6-ARPainting.unity
+    path: Assets/Scenes/5-ARPainting.unity
     guid: 10e669ea0811d6b4dbffebd03ee9d550
   - enabled: 1
-    path: Assets/Scenes/7-Portal.unity
+    path: Assets/Scenes/6-Portal.unity
     guid: f093aca7fbea26949a55a121730e18fe
   - enabled: 1
-    path: Assets/Scenes/8-MicTriggerStuff.unity
+    path: Assets/Scenes/7-SoundTrigger.unity
     guid: 3a5c977656328014cab85a06882b5c87
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 377f770e406927d4cb04fa2688b1ebdd,
