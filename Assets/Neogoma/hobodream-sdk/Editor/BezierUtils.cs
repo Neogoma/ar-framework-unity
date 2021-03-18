@@ -38,7 +38,6 @@ namespace com.Neogoma.HoboDream.Util.RouteVisualization
 
         /// <summary>
         /// Draws the spline detailed.
-        /// 画样条（每段路径）
         /// </summary>
         /// <param name="spline">The spline.</param>
         public static void DrawSplineDetailed( BezierSpline spline )
@@ -63,7 +62,6 @@ namespace com.Neogoma.HoboDream.Util.RouteVisualization
 
         /// <summary>
         /// Draws the bezier point.
-        /// 显示样条点
         /// </summary>
         /// <param name="point">The point.</param>
         /// <param name="pointIndex">Index of the point.</param>
